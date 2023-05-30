@@ -4,7 +4,8 @@ import {FaShoppingCart} from'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { CardState } from '../Context/Context'
 import { AiFillDelete } from 'react-icons/ai'
-import DropdownItem from 'react-bootstrap/esm/DropdownItem'
+
+
 function Headers() {
 
     const{state:{cart},dispatch,setproductstate}=CardState()
@@ -14,7 +15,7 @@ function Headers() {
     <Navbar  className='header' bg='dark' variant='dark' style={{height:80}}>
         <Container>
             <Navbar.Brand>
-                <Link>Shopping-cart</Link>
+                <Link>shppoing cart</Link>
             </Navbar.Brand>
             <Navbar.Text className='search'>
                 <FormControl
